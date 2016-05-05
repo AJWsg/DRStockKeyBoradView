@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777457A11CBDF3D100725BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457A01CBDF3D100725BF6 /* main.m */; };
+		777457A41CBDF3D100725BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457A31CBDF3D100725BF6 /* AppDelegate.m */; };
+		777457A71CBDF3D100725BF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457A61CBDF3D100725BF6 /* ViewController.m */; };
+		777457AA1CBDF3D100725BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777457A81CBDF3D100725BF6 /* Main.storyboard */; };
+		777457AC1CBDF3D100725BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777457AB1CBDF3D100725BF6 /* Assets.xcassets */; };
+		777457AF1CBDF3D100725BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777457AD1CBDF3D100725BF6 /* LaunchScreen.storyboard */; };
+		777457BA1CBDF3D100725BF6 /* YNStockKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457B91CBDF3D100725BF6 /* YNStockKeyBoardTests.m */; };
+		777457C51CBDF3D100725BF6 /* YNStockKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457C41CBDF3D100725BF6 /* YNStockKeyBoardUITests.m */; };
+		777457D51CBDF4E200725BF6 /* YNKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457D41CBDF4E200725BF6 /* YNKeyBoardView.m */; };
+		777457D91CBDF54500725BF6 /* DRLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457D71CBDF54500725BF6 /* DRLetterView.m */; };
+		777457DA1CBDF54500725BF6 /* DRLetterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777457D81CBDF54500725BF6 /* DRLetterView.xib */; };
+		777457DE1CBDF55100725BF6 /* StcockNum.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777457DB1CBDF55100725BF6 /* StcockNum.xib */; };
+		777457DF1CBDF55100725BF6 /* DRStcockNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777457DD1CBDF55100725BF6 /* DRStcockNumView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777457B61CBDF3D100725BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777457941CBDF3D100725BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7774579B1CBDF3D100725BF6;
+			remoteInfo = YNStockKeyBoard;
+		};
+		777457C11CBDF3D100725BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777457941CBDF3D100725BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7774579B1CBDF3D100725BF6;
+			remoteInfo = YNStockKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7774579C1CBDF3D100725BF6 /* YNStockKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNStockKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777457A01CBDF3D100725BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777457A21CBDF3D100725BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		777457A31CBDF3D100725BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		777457A51CBDF3D100725BF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		777457A61CBDF3D100725BF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		777457A91CBDF3D100725BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777457AB1CBDF3D100725BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		777457AE1CBDF3D100725BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		777457B01CBDF3D100725BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777457B51CBDF3D100725BF6 /* YNStockKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNStockKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777457B91CBDF3D100725BF6 /* YNStockKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNStockKeyBoardTests.m; sourceTree = "<group>"; };
+		777457BB1CBDF3D100725BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777457C01CBDF3D100725BF6 /* YNStockKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNStockKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777457C41CBDF3D100725BF6 /* YNStockKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNStockKeyBoardUITests.m; sourceTree = "<group>"; };
+		777457C61CBDF3D100725BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777457D31CBDF4E200725BF6 /* YNKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNKeyBoardView.h; sourceTree = "<group>"; };
+		777457D41CBDF4E200725BF6 /* YNKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNKeyBoardView.m; sourceTree = "<group>"; };
+		777457D61CBDF54500725BF6 /* DRLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLetterView.h; sourceTree = "<group>"; };
+		777457D71CBDF54500725BF6 /* DRLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLetterView.m; sourceTree = "<group>"; };
+		777457D81CBDF54500725BF6 /* DRLetterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRLetterView.xib; sourceTree = "<group>"; };
+		777457DB1CBDF55100725BF6 /* StcockNum.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StcockNum.xib; sourceTree = "<group>"; };
+		777457DC1CBDF55100725BF6 /* DRStcockNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRStcockNumView.h; sourceTree = "<group>"; };
+		777457DD1CBDF55100725BF6 /* DRStcockNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRStcockNumView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777457991CBDF3D100725BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457B21CBDF3D100725BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457BD1CBDF3D100725BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777457931CBDF3D100725BF6 = {
+			isa = PBXGroup;
+			children = (
+				7774579E1CBDF3D100725BF6 /* YNStockKeyBoard */,
+				777457B81CBDF3D100725BF6 /* YNStockKeyBoardTests */,
+				777457C31CBDF3D100725BF6 /* YNStockKeyBoardUITests */,
+				7774579D1CBDF3D100725BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7774579D1CBDF3D100725BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7774579C1CBDF3D100725BF6 /* YNStockKeyBoard.app */,
+				777457B51CBDF3D100725BF6 /* YNStockKeyBoardTests.xctest */,
+				777457C01CBDF3D100725BF6 /* YNStockKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7774579E1CBDF3D100725BF6 /* YNStockKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				777457D21CBDF4C500725BF6 /* YNKeyBoardView */,
+				777457A21CBDF3D100725BF6 /* AppDelegate.h */,
+				777457A31CBDF3D100725BF6 /* AppDelegate.m */,
+				777457A51CBDF3D100725BF6 /* ViewController.h */,
+				777457A61CBDF3D100725BF6 /* ViewController.m */,
+				777457A81CBDF3D100725BF6 /* Main.storyboard */,
+				777457AB1CBDF3D100725BF6 /* Assets.xcassets */,
+				777457AD1CBDF3D100725BF6 /* LaunchScreen.storyboard */,
+				777457B01CBDF3D100725BF6 /* Info.plist */,
+				7774579F1CBDF3D100725BF6 /* Supporting Files */,
+			);
+			path = YNStockKeyBoard;
+			sourceTree = "<group>";
+		};
+		7774579F1CBDF3D100725BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777457A01CBDF3D100725BF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777457B81CBDF3D100725BF6 /* YNStockKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				777457B91CBDF3D100725BF6 /* YNStockKeyBoardTests.m */,
+				777457BB1CBDF3D100725BF6 /* Info.plist */,
+			);
+			path = YNStockKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		777457C31CBDF3D100725BF6 /* YNStockKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				777457C41CBDF3D100725BF6 /* YNStockKeyBoardUITests.m */,
+				777457C61CBDF3D100725BF6 /* Info.plist */,
+			);
+			path = YNStockKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		777457D21CBDF4C500725BF6 /* YNKeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				777457D31CBDF4E200725BF6 /* YNKeyBoardView.h */,
+				777457D41CBDF4E200725BF6 /* YNKeyBoardView.m */,
+				777457D61CBDF54500725BF6 /* DRLetterView.h */,
+				777457D71CBDF54500725BF6 /* DRLetterView.m */,
+				777457D81CBDF54500725BF6 /* DRLetterView.xib */,
+				777457DC1CBDF55100725BF6 /* DRStcockNumView.h */,
+				777457DD1CBDF55100725BF6 /* DRStcockNumView.m */,
+				777457DB1CBDF55100725BF6 /* StcockNum.xib */,
+			);
+			path = YNKeyBoardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7774579B1CBDF3D100725BF6 /* YNStockKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777457C91CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoard" */;
+			buildPhases = (
+				777457981CBDF3D100725BF6 /* Sources */,
+				777457991CBDF3D100725BF6 /* Frameworks */,
+				7774579A1CBDF3D100725BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNStockKeyBoard;
+			productName = YNStockKeyBoard;
+			productReference = 7774579C1CBDF3D100725BF6 /* YNStockKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777457B41CBDF3D100725BF6 /* YNStockKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777457CC1CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoardTests" */;
+			buildPhases = (
+				777457B11CBDF3D100725BF6 /* Sources */,
+				777457B21CBDF3D100725BF6 /* Frameworks */,
+				777457B31CBDF3D100725BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777457B71CBDF3D100725BF6 /* PBXTargetDependency */,
+			);
+			name = YNStockKeyBoardTests;
+			productName = YNStockKeyBoardTests;
+			productReference = 777457B51CBDF3D100725BF6 /* YNStockKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		777457BF1CBDF3D100725BF6 /* YNStockKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777457CF1CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoardUITests" */;
+			buildPhases = (
+				777457BC1CBDF3D100725BF6 /* Sources */,
+				777457BD1CBDF3D100725BF6 /* Frameworks */,
+				777457BE1CBDF3D100725BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777457C21CBDF3D100725BF6 /* PBXTargetDependency */,
+			);
+			name = YNStockKeyBoardUITests;
+			productName = YNStockKeyBoardUITests;
+			productReference = 777457C01CBDF3D100725BF6 /* YNStockKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777457941CBDF3D100725BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "@raydun";
+				TargetAttributes = {
+					7774579B1CBDF3D100725BF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					777457B41CBDF3D100725BF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7774579B1CBDF3D100725BF6;
+					};
+					777457BF1CBDF3D100725BF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7774579B1CBDF3D100725BF6;
+					};
+				};
+			};
+			buildConfigurationList = 777457971CBDF3D100725BF6 /* Build configuration list for PBXProject "YNStockKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777457931CBDF3D100725BF6;
+			productRefGroup = 7774579D1CBDF3D100725BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7774579B1CBDF3D100725BF6 /* YNStockKeyBoard */,
+				777457B41CBDF3D100725BF6 /* YNStockKeyBoardTests */,
+				777457BF1CBDF3D100725BF6 /* YNStockKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7774579A1CBDF3D100725BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777457AF1CBDF3D100725BF6 /* LaunchScreen.storyboard in Resources */,
+				777457DE1CBDF55100725BF6 /* StcockNum.xib in Resources */,
+				777457AC1CBDF3D100725BF6 /* Assets.xcassets in Resources */,
+				777457DA1CBDF54500725BF6 /* DRLetterView.xib in Resources */,
+				777457AA1CBDF3D100725BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457B31CBDF3D100725BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457BE1CBDF3D100725BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777457981CBDF3D100725BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777457DF1CBDF55100725BF6 /* DRStcockNumView.m in Sources */,
+				777457A71CBDF3D100725BF6 /* ViewController.m in Sources */,
+				777457D91CBDF54500725BF6 /* DRLetterView.m in Sources */,
+				777457A41CBDF3D100725BF6 /* AppDelegate.m in Sources */,
+				777457D51CBDF4E200725BF6 /* YNKeyBoardView.m in Sources */,
+				777457A11CBDF3D100725BF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457B11CBDF3D100725BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777457BA1CBDF3D100725BF6 /* YNStockKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777457BC1CBDF3D100725BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777457C51CBDF3D100725BF6 /* YNStockKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		777457B71CBDF3D100725BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7774579B1CBDF3D100725BF6 /* YNStockKeyBoard */;
+			targetProxy = 777457B61CBDF3D100725BF6 /* PBXContainerItemProxy */;
+		};
+		777457C21CBDF3D100725BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7774579B1CBDF3D100725BF6 /* YNStockKeyBoard */;
+			targetProxy = 777457C11CBDF3D100725BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777457A81CBDF3D100725BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777457A91CBDF3D100725BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		777457AD1CBDF3D100725BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777457AE1CBDF3D100725BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777457C71CBDF3D100725BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		777457C81CBDF3D100725BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777457CA1CBDF3D100725BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNStockKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		777457CB1CBDF3D100725BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNStockKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		777457CD1CBDF3D100725BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNStockKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNStockKeyBoard.app/YNStockKeyBoard";
+			};
+			name = Debug;
+		};
+		777457CE1CBDF3D100725BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNStockKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNStockKeyBoard.app/YNStockKeyBoard";
+			};
+			name = Release;
+		};
+		777457D01CBDF3D100725BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNStockKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNStockKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		777457D11CBDF3D100725BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNStockKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRDream.YNStockKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNStockKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777457971CBDF3D100725BF6 /* Build configuration list for PBXProject "YNStockKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777457C71CBDF3D100725BF6 /* Debug */,
+				777457C81CBDF3D100725BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777457C91CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777457CA1CBDF3D100725BF6 /* Debug */,
+				777457CB1CBDF3D100725BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777457CC1CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777457CD1CBDF3D100725BF6 /* Debug */,
+				777457CE1CBDF3D100725BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777457CF1CBDF3D100725BF6 /* Build configuration list for PBXNativeTarget "YNStockKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777457D01CBDF3D100725BF6 /* Debug */,
+				777457D11CBDF3D100725BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777457941CBDF3D100725BF6 /* Project object */;
+}
